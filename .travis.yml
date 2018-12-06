@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
+deploy:
+  provider: heroku
+  app: evstar-jwt-auth-server
+  api_key:
+    secure: PdNl/NYtmTYBArDFqTh0TKQbRXMWP0ty8L2v4Y1a6PzmFbCfWdj8nbt4S6R8qH28RlWLnR5I6bC82nWqfU/u+XV1HrW2m0Ci8449n/motz69ZwrQ1d5Z4e/ye/PRA44496/68UYQVN8A4PcUMNDU7Ua/GTgRsljAku1+rK/rYWWO8hvkdyd8NcYjxfPwtnowyBqAxznoTnKK9wRwvWUJlDQWyFZWhpIBHLmKrjtFvVNzFRdrG+fehr7vFlUoGapTKA37eb/fTM4j88OW+D7eFujWNB4mfGDXlYTZOeADyYYvGvmD0V+AivbTEd+ZUDm90tbd8v2ufsvlrswtufAB1bTOS36YQ3JOIyileiFwrxTFkmREgJSpFlISlDI+7cfMEwQ1zcjgKVGqWnFcReXhMMeZfGw4M3AGD+s8LpL5P5x85QGpD3kIPeQQA1wn3mQP4+RxTuqunGQEeFl9f3TOkX/d3JU24PUGnHal+Y/XjOwJhIxfOlHj4/by3BdONYjo1g50ojtHbziqjdOkmINEId/GaW7hYG8T0FE4TCJJGgfkntCbq8sdVK1oSOeAiTIglhMU6UHcskhp14WjJxviONZgftzi7c8Jv9hOhBKe2n/88CnT9vz9oElUlf3Wmr5qO8vpWQ1a7np3hiFlDi2PiPEnEP+2f5QFaGu7UKYzdCQ=
