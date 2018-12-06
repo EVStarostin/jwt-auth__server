@@ -30,7 +30,7 @@ router.post('/login', (req, res) => {
     email: 'user@gmail.ru'
   }
 
-  jwt.sign({ user }, 'secret_key', { expiresIn: '30s' }, (err, token) => {
+  jwt.sign({ user }, 'secret_key', { expiresIn: '1d' }, (err, token) => {
     res.json({
       token
     });
